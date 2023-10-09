@@ -1,0 +1,20 @@
+nav#admin{
+    grid-area: 1/1 / 2/13;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+nav#admin ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+nav#admin ul a{ 
+    width: auto;
+    height: 30px; 
+    background-color: var(--main-color);
+
+} 

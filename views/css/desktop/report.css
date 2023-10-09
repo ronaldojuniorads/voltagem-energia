@@ -1,0 +1,21 @@
+#report{
+    grid-area: 3/2 / span 8/ span 10;
+    color: var(--main-text-color);
+    font-size: var(--font-size-mobile);
+}
+
+#report .box-inputs div .label-file{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    height: 100%;
+}
+#box-report-button{
+    width: auto;
+    align-self: flex-end; 
+    justify-self: flex-end;
+    gap: 20px;
+}

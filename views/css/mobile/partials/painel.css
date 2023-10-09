@@ -1,0 +1,46 @@
+#admin-panel{
+    grid-area: 2/1 / 13/13;
+    display: grid;
+    grid-template-columns: repeat(2, calc(100%/2));
+    grid-template-rows: repeat(2, calc(100%/2));
+}
+#admin-panel .services{
+    grid-area: 1/1 / 2/2;
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+} 
+#admin-panel div.box-title-filter{
+    background-color: red;
+    width: 100%;
+    height: 10%;
+    display: flex;      
+    justify-content: space-between;
+
+}
+
+.box-title-filter label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-title-filter input{
+    width: 60%;
+    height: 100%;
+}
+#admin-panel .tech{
+    grid-area: 1/2 / 2/3; 
+    background-color: aqua;
+
+    
+}
+#admin-panel .customers{
+    grid-area: 2/1 / 3/2; 
+    background-color: aqua;
+
+    
+}
+#admin-panel .finance{
+    background-color: aqua;
+    
+}

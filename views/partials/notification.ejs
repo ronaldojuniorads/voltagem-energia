@@ -1,0 +1,31 @@
+<div id="notification">
+    <div class="notification-icon">
+    </div>
+
+    <div class="notification-content">
+        <div class="message">
+            <p>Bom dia, reparo do serviço tal foi cancelado pelo cliente</p>
+        </div>
+        <div class="message">
+            <p>Bom dia, reparo do serviço tal foi cancelado pelo cliente</p>
+        </div>
+        <div class="message">
+            <p>Bom dia, reparo do serviço tal foi cancelado pelo cliente</p>
+        </div>
+        <div class="message">
+            <p>Bom dia, reparo do serviço tal foi cancelado pelo cliente</p>
+        </div>
+    </div>
+    
+</div>
+
+
+<script>
+    const notificationIcon = document.querySelector(".notification-icon")
+    const notificationContent = document.querySelector(".notification-content")
+
+    notificationIcon.addEventListener("click", (event)=>{ 
+        notificationIcon.classList.toggle("open-close-notification-icon")
+        notificationContent.classList.toggle("show-notification")
+    })
+</script>

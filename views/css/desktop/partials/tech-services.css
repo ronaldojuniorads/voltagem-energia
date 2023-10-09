@@ -1,0 +1,13 @@
+#main-login{
+    grid-area: 4/2 / 10/12;
+}
+.status{
+    font-size: var(--font-size-service-status-desktop-992);
+}
+.title h1{
+    font-size: var(--font-size-service-title-desktop-992);
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
+

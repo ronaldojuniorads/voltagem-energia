@@ -1,0 +1,41 @@
+/* Extra small devices (phones, 600px and down) */ 
+
+
+/* main */
+main{
+    grid-area: 4/2 / 10/12;
+    background-color: red; 
+}
+
+/* footer */
+footer{
+    grid-area: 11/1 / 13/13;
+    background-color: var(--main-color);
+
+}
+
+/* responsividade */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    nav{
+        grid-area: 1/1 / 2/13;
+     }
+    main{
+        background-color: green;
+        grid-area: 4/4 / 10/10;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

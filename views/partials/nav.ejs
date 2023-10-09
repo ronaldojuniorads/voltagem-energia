@@ -1,0 +1,35 @@
+<nav>
+    <div class="menu-icon">
+        
+    </div>
+    
+    <ul>
+        <li>
+            <a href="/tech/services">
+                <img src="../icones/service-menu-icon.svg" alt="" srcset="" class="service-icon">
+                <span>SERVIÇOS</span>
+            </a>
+        </li>
+        <li>
+            <a href="/tech/report">
+                <img src="../icones/report-icon.svg" alt="" srcset="" class="report-icon"> 
+                <span>RELATÓRIO</span>
+            </a>
+        </li>
+        <li>
+            <a href="/tech/historico">
+                <img src="../icones/history-icon.svg" alt="" srcset="" class="histoty-icon">
+                <span>HISTÓRICO</span>
+            </a>
+        </li>
+    </ul>
+</nav>
+<script>
+    const nav = document.querySelector("nav")
+    const navIcon = document.querySelector(".menu-icon")
+    const ul = document.querySelector("ul")
+    navIcon.addEventListener("click",(event)=>{
+        navIcon.classList.toggle("open-close-menu-icon")
+        ul.classList.toggle("show-nav")
+    })
+</script>

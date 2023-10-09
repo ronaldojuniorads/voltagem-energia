@@ -1,0 +1,80 @@
+/* Extra small devices (phones, 600px and down) */
+.container-service-full-description{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    overflow-y: scroll;   
+}
+.container-service-full-description::-webkit-scrollbar{
+    width: 7px;
+}
+.container-service-full-description::-webkit-scrollbar-track{
+    background: transparent;
+}
+.container-service-full-description::-webkit-scrollbar-thumb{
+    background-color: var(--main-color);
+    border-radius: 20px;
+     
+}
+.container-service-full-description div{
+    border: 1px solid var(--main-color);
+    width: 90%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container-service-full-description div h1{ 
+    background-color: var(--box-service-and-description-background-color);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--font-size-description-title-mobile);
+}
+.container-service-full-description span, p{
+    font-size: var(--font-size-mobile);
+    background-color: var(--box-service-and-description-background-color);
+    padding: 0 5px;
+    text-align: center;
+}
+.container-service-full-description div span{
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-service-full-description div.observacoes{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .container-service-full-description div h1{
+        font-size: var(--font-size-description-title-mobile-600);
+    }
+    .container-service-full-description span, p{
+        font-size: var(--font-size-service-description-mobile-600);
+    }
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .container-service-full-description div h1{
+        font-size: var(--font-size-description-title-mobile-768);
+    }
+    .container-service-full-description span, p{
+        font-size: var(--font-size-service-description-mobile-768);
+    }
+    .container-service-full-description div span:nth-child(1){
+        width: 30%;
+    }
+    .container-service-full-description div span:nth-child(2){
+        width: 65%;
+    }
+}

@@ -1,0 +1,86 @@
+<main id="report">
+    <form action="/tech/report">
+        <div class="box-inputs machine-and-images"> 
+            <div>
+                <label for="machine">Nome/Modelo da máquina</label>
+                <input type="text" name="machine" id="machine" placeholder="Modelo da máquina"> 
+            </div>
+            <div>
+                <span>Imagens</span>
+                <label for="images" class="label-file">Selecione imagens</label>
+                <input type="file" name="images" id="images" accept="image/*" multiple> 
+            </div> 
+        </div>
+
+        <div class="box-inputs problems"> 
+            <div>
+                <label for="problems">Problemas</label>
+                <input type="text" name="problems" id="problems" placeholder="Descreva os problemas"> 
+            </div>
+            <div>
+                <span>Imagens</span>
+                <label for="images" class="label-file">Selecione imagens</label>
+                <input type="file" name="images" id="images" accept="image/*" multiple> 
+            </div> 
+        </div>
+
+        <div class="box-inputs solution"> 
+            <div>
+                <label for="solution">Soluções</label>
+                <input type="text" name="solution" id="solution" placeholder="Descreva a soluções"> 
+            </div>
+            <div>
+                <span>Imagens</span>
+                <label for="images" class="label-file">Selecione imagens</label>
+                <input type="file" name="images" id="images" accept="image/*" multiple> 
+            </div> 
+        </div>
+
+        <div class="box-inputs spare-parts"> 
+            <div>
+                <label for="spare-parts">Peças de reposição</label>
+                <input type="text" name="spare-parts" id="spare-parts" placeholder="Descreva as peças de reeposicão"> 
+            </div>
+            <div>
+                <span>Imagens</span>
+                <label for="images" class="label-file">Selecione imagens</label>
+                <input type="file" name="images" id="images" accept="image/*" multiple> 
+            </div> 
+        </div>
+
+        <div class="box-inputs necessary-equipment"> 
+            <div>
+                <label for="necessary-equipment">Equipamentos nescessarios</label>
+                <input type="text" name="necessary-equipment" id="necessary-equipment" placeholder="Descreva os equipamentos nescessarios"> 
+            </div>
+            <div>
+                <span>Imagens</span>
+                <label for="images" class="label-file">Selecione imagens</label>
+                <input type="file" name="images" id="images" accept="image/*" multiple> 
+            </div> 
+        </div>
+
+        <div class="box-inputs observation"> 
+            <div>
+                <label for="observation">Observação</label>
+                <input type="text" name="observation" id="observation" placeholder="Descreva alguma observação"> 
+            </div>
+            <div>
+                <span>Imagens</span>
+                <label for="images" class="label-file">Selecione imagens</label>
+                <input type="file" name="images" id="images" accept="image/*" multiple> 
+            </div> 
+        </div>
+        <div id="box-report-button">
+            <div>
+                <img src="../icones/format.svg" alt="">
+                <a href="/tech/report/format">Formatar</a>
+            </div>
+            <div>
+                <img src="../icones/send.svg" alt="">
+                <button type="submit">Enviar</button>
+            </div> 
+        </div>
+    </form>
+
+</main>

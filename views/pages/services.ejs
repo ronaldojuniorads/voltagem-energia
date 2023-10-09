@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include("../partials/head.ejs") %>
+<body>
+    <!-- recbe do back o user id do tech e envia para o partial tech service paera que possa ser requisitado os servicos desse tech user-->
+    <container id="grid">
+        <%- include("../partials/nav.ejs") %>
+        <%- include("../partials/tech-services.ejs") %> <!--objeto recebido vai aqui-->
+        <%- include("../partials/notification.ejs") %> 
+        <%- include("../partials/footer.ejs") %>
+    </container>
+</body>
+</html>

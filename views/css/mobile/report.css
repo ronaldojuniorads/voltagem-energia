@@ -1,0 +1,5 @@
+#report{
+    grid-area: 3/2 / span 8/ span 10;
+    color: var(--main-text-color);
+    font-size: var(--font-size-mobile);
+}

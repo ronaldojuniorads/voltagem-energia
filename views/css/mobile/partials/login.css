@@ -1,0 +1,63 @@
+/* Extra small devices (phones, 600px and down) */
+input{
+    border: none;
+    width: 70%;
+    height: 100%;
+    text-align: center;
+}
+main#login h2{
+    display: flex;flex-direction: column;
+    align-items: center;
+
+}
+main#login h2::after{
+    content: "";
+    display: flex; 
+    width: 70%;
+    height: 5px;
+    background-color: var(--main-color);
+}
+main#login form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white
+
+}
+main#login form div{
+    background-color:  var(--main-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    height: 60px;
+}
+main#login form div label{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .7em;
+}
+main#login form ::placeholder{
+    font-size: .6em;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) { 
+     
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    main#login form div label{ 
+        font-size: .8em;
+    }
+    main#login form ::placeholder{
+        font-size: .7em;
+    }
+}

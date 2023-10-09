@@ -1,0 +1,20 @@
+.container-service-full-description div h1{
+    font-size: var( --font-size-service-title-desktop-992);
+}
+.container-service-full-description span, p{
+    font-size: var(--font-size-service-description-desktop-992);
+} 
+body{
+    background-color: black;
+}
+.container-service-full-description::-webkit-scrollbar{
+    width: 7px;
+}
+.container-service-full-description::-webkit-scrollbar-track{
+    background: transparent;
+}
+.container-service-full-description::-webkit-scrollbar-thumb{
+    background-color: var(--main-color);
+    border-radius: 20px;
+     
+}

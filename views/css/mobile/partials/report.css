@@ -1,0 +1,123 @@
+form{
+    height: 100%; 
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;  
+    padding: 5px;
+    border: 1px solid var(--main-color);
+}
+input:focus{
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+#report .box-inputs{
+    display: flex;
+    justify-content: space-between;
+    min-height: 55px;  
+    width: 100%;
+}
+#report .box-inputs label:not(label.label-file), span{
+    text-align: center;
+    font-size: .8em;
+    position: relative;
+    height: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.63);
+
+    
+}
+#report .box-inputs label:not(label.label-file)::after, 
+#report .box-inputs span::after {
+    content: "";
+    width: 50%;
+    height: 2px;
+    background-color: green;
+
+}
+#report .box-inputs div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3px;
+    width: 45%;
+}
+#report .box-inputs .label-file{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#report .box-inputs input, .label-file{
+    
+    height: 80%;
+    border: none;
+    background-color: var(--input-background-color);  
+}
+#report .box-inputs input[type="file"]{
+    display: none;
+}   
+
+#report .box-inputs label.label-file{ 
+    font-size: .6em; 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: rgb(156, 156, 156);
+}
+#report .box-inputs ::placeholder{ 
+    color: rgb(156, 156, 156);
+    font-size: .65em; 
+}
+
+#box-report-button{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+#box-report-button div{
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: var(--main-color);
+    
+    cursor: pointer;
+}
+#box-report-button button{
+    border: none;
+    background-color: transparent;
+}
+#box-report-button button,a{
+    font-size: .7em;
+    color: white;
+}
+#box-report-button img{ 
+    width: 30%;
+    height: 80%; 
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #report .box-inputs label:not(label.label-file), span{
+        font-size: 1em;
+    }
+    #report .box-inputs label.label-file{ 
+        font-size: .9em; 
+    }
+    #box-report-button button,a{
+        font-size: .9em;
+    }
+}

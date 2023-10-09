@@ -1,0 +1,21 @@
+/* partials css */
+@import "./partials/nav.css";
+@import "./partials/notificacao.css";
+@import "./partials/footer.css";
+@import "./partials/tech-services.css";
+@import "./partials/service-description.css";
+@import "./partials/report.css";
+@import "./partials/login.css";
+@import "./partials/nav-admin.css";
+@import "./partials/painel.css";
+
+
+
+
+/* page css*/
+@import "./tech.css";
+@import "./service-description.css";
+@import "./report.css";
+@import "./index.css";
+
+

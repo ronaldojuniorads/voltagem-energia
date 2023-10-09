@@ -1,0 +1,10 @@
+
+#main-service-description{
+    grid-area: 3/2 / span 8/ span 10;
+    color: var(--main-text-color);
+    font-size: var(--font-size-mobile);
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
+
+
